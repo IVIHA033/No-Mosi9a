@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tile_label">Sans musique</string>
+    <string name="channel_engine">Suppression de la musique</string>
+    <string name="notif_title">Suppression de la musique activée</string>
+    <string name="notif_text_idle">Lancez une vidéo dans n\'importe quelle app</string>
+    <string name="notif_text_apps">Nettoyage : %1$s</string>
+    <string name="notif_action_stop">Arrêter</string>
+    <string name="toast_setup_needed">Ouvrez No Mosi9a pour terminer la configuration</string>
+    <string name="toast_projection_denied">Android n\'a pas autorisé la capture audio</string>
+    <string name="toast_projection_revoked">Android a arrêté la capture audio</string>
+</resources>

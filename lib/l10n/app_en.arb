@@ -1,0 +1,167 @@
+{
+  "@@locale": "en",
+  "appTitle": "No Mosi9a",
+  "tagline": "Watch anything. Hear only the voices.",
+  "homeOffTitle": "Music removal is off",
+  "homeOffSubtitle": "Tap the button to start",
+  "homeStartingTitle": "Starting…",
+  "homeStartingSubtitle": "Preparing the voice model",
+  "homeOnTitle": "Music removal is on",
+  "homeOnSubtitle": "Open YouTube, Instagram, Facebook… and play any video.",
+  "powerStart": "Start music removal",
+  "powerStop": "Stop music removal",
+  "liveTitle": "Live",
+  "liveVoice": "Voice detected · words protected",
+  "meterOriginal": "Original sound",
+  "meterClean": "What you hear",
+  "statDelay": "Delay",
+  "statQuality": "Quality",
+  "statCpu": "Processor",
+  "delayValue": "{ms} ms",
+  "@delayValue": {
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "percentValue": "{value}%",
+  "@percentValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "qualityAuto": "Automatic",
+  "qualityFull": "Full",
+  "qualityBalanced": "Balanced",
+  "qualityLight": "Light",
+  "appsTitle": "Apps being cleaned",
+  "appsEmpty": "No app is playing sound right now.",
+  "appCleaning": "Music removed",
+  "appBlocked": "This app blocks processing — plays unchanged",
+  "appNotMuted": "Could not silence the original sound",
+  "boostTitle": "Voice boost",
+  "boostValue": "+{db} dB",
+  "@boostValue": {
+    "placeholders": {
+      "db": {
+        "type": "int"
+      }
+    }
+  },
+  "boostHint": "Music removal lowers the overall loudness. Boost the voice back up.",
+  "autoSwitchedNote": "The best quality was too heavy for this phone, so the app switched to a lighter one.",
+  "errorProjectionDenied": "Android did not allow the audio capture. Tap start and accept.",
+  "errorProjectionRevoked": "Android stopped the audio capture (screen locked or sharing stopped).",
+  "errorSetupMissing": "The one-time activation is missing or was removed.",
+  "errorEngineFailed": "The audio engine stopped unexpectedly. Try again.",
+  "errorCaptureDenied": "The audio capture permission is missing.",
+  "actionOpenSetup": "Open setup",
+  "actionRetry": "Try again",
+  "tipTileTitle": "Tip: one-tap switch",
+  "tipTileBody": "Add the “No music” tile to your quick settings to switch it on or off without leaving YouTube.",
+  "setupTitle": "Setup",
+  "setupIntro": "Two minutes, one time only. After that, a single tap is enough.",
+  "setupStatusDone": "Done",
+  "setupStatusMissing": "To do",
+  "setupStatusOptional": "Recommended",
+  "setupStep1Title": "Allow audio capture",
+  "setupStep1Body": "Android calls this “record audio”: it lets the app receive the sound of other apps. Nothing is recorded, saved or sent anywhere.",
+  "setupStep1Button": "Allow",
+  "setupStep2Title": "One-time activation",
+  "setupStep2Body": "To silence the original sound of YouTube & co — so you only hear the cleaned voice — Android needs a permission that can only be given once, from developer tools. It stays until you uninstall the app.",
+  "setupWithPc": "With a computer (ADB)",
+  "setupWithPcSteps": "1. On the phone: Settings › About phone › tap “Build number” 7 times.\n2. Settings › Developer options › turn on “USB debugging”.\n3. Plug the phone into the computer and run:",
+  "setupWithoutPc": "Without a computer (Shizuku)",
+  "setupShizukuSteps": "1. Install Shizuku (free, open source).\n2. Start it with “Wireless debugging” (Shizuku explains how).\n3. Come back here and tap the button below.",
+  "setupShizukuButton": "Grant with Shizuku",
+  "setupShizukuGet": "Get Shizuku",
+  "setupShizukuNotRunning": "Shizuku is not running. Open Shizuku and start it first.",
+  "setupShizukuDenied": "The Shizuku permission was refused.",
+  "setupShizukuFailed": "Shizuku could not grant the permission.",
+  "setupCheckAgain": "Check again",
+  "setupCopy": "Copy",
+  "setupCopied": "Copied",
+  "setupCommandsHint": "The second command is recommended: it skips Android's capture pop-up and keeps the app working with the screen off.",
+  "setupPermDump": "Mute other apps",
+  "setupPermProjection": "Auto-consent & screen off",
+  "setupStep3Title": "Keep it running",
+  "setupStep3Body": "Some phones close background apps to save battery. Let No Mosi9a run without restrictions.",
+  "setupStep3Button": "Battery settings",
+  "setupFinish": "Start using the app",
+  "setupMuteUnsupported": "This phone does not have the audio effect needed to silence other apps, so the app cannot work on it.",
+  "settingsTitle": "Settings",
+  "settingsQuality": "Sound quality",
+  "settingsQualityAutoDesc": "Uses the best quality your phone can handle",
+  "settingsQualityFullDesc": "Most natural voice (48 kHz), uses more battery",
+  "settingsQualityBalancedDesc": "Same music removal, phone-call sound (16 kHz)",
+  "settingsQualityLightDesc": "For older phones: lighter, removes a little less music (16 kHz)",
+  "settingsSpeedTest": "Test my phone again",
+  "settingsSpeedTestDone": "The speed test will run on the next start.",
+  "settingsLatency": "Delay",
+  "settingsLatencyDesc": "Low keeps lips in sync. Stable avoids crackles on slow phones.",
+  "latencyLow": "Low",
+  "latencyNormal": "Normal",
+  "latencyStable": "Stable",
+  "settingsProtection": "Voice protection",
+  "settingsProtectionDesc": "When someone talks over loud music, the AI can cut parts of their words. Voice protection notices speech and keeps the words whole. Music alone is always removed.",
+  "protectionOff": "Off",
+  "protectionNormal": "Normal",
+  "protectionStrong": "Strong",
+  "protectionOffDesc": "Maximum removal. Words can be cut when the music is loud.",
+  "protectionNormalDesc": "Recommended. Words stay whole; a faint trace of music can remain under the voice, only while someone talks.",
+  "protectionStrongDesc": "For very loud music. Keeps the most speech; more music stays under the voice while someone talks.",
+  "settingsExcluded": "Apps to leave untouched",
+  "settingsExcludedCount": "{count, plural, =0{None} =1{1 app} other{{count} apps}}",
+  "@settingsExcludedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsLanguage": "Language",
+  "languageSystem": "Phone language",
+  "settingsBattery": "Battery optimization",
+  "settingsBatteryDesc": "Allow running in the background",
+  "settingsSetup": "Setup & permissions",
+  "settingsAbout": "About",
+  "settingsPrivacyTitle": "100% offline",
+  "settingsPrivacy": "The app has no internet permission. The sound is processed on your phone and never leaves it.",
+  "settingsLicenses": "Open-source licenses",
+  "settingsVersion": "Version {version}",
+  "@settingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "excludedTitle": "Leave untouched",
+  "excludedHint": "Sound from these apps is not processed or muted (for example a Quran app or a podcast app).",
+  "excludedSearch": "Search apps",
+  "helpTitle": "Questions",
+  "helpHowTitle": "How does it work?",
+  "helpHowBody": "The app receives the sound other apps play, runs it through an on-device neural network (DPDFNet) that keeps human voices and removes everything else, and plays the cleaned voice. At the same time it silences the original sound of those apps.",
+  "help100Title": "Is the music removed 100%?",
+  "help100Body": "Instrumental music is removed almost completely: in tests, music alone went from full volume to silence (−60 to −100 dB), and speech over music stays clear. Singing is a human voice, so the voice of a singer can remain (the instruments are still removed).",
+  "helpAppsTitle": "Which apps work?",
+  "helpAppsBody": "YouTube, Instagram, Facebook, TikTok, Snapchat and most video apps. Apps that forbid audio capture (Netflix, Spotify, some browsers like Chrome, a few games) keep playing unchanged — the app shows them as “blocks processing”.",
+  "helpAdbTitle": "Why the one-time activation?",
+  "helpAdbBody": "Android lets apps capture other apps' sound, but not silence them. The activation gives the app the right to see which app is playing so it can mute its original sound. Without it, you would hear the music and the cleaned voice at the same time.",
+  "helpDelayTitle": "The sound is slightly late",
+  "helpDelayBody": "Cleaning needs about 50 ms plus the audio buffers. Choose “Low” delay in the settings. Bluetooth headphones add their own delay.",
+  "helpBatteryTitle": "Battery",
+  "helpBatteryBody": "The model runs only while sound is playing. When the video is paused the engine idles. Light quality uses about 4× less processing.",
+  "helpPrivacyTitle": "Privacy",
+  "helpPrivacyBody": "Everything happens on the phone and the app cannot access the internet at all. Android shows a screen-sharing icon while it runs, because capturing other apps' sound goes through the same system as screen sharing; the app never looks at your screen.",
+  "helpTroubleTitle": "I hear the music and the voice together",
+  "helpTroubleBody": "Check that the activation is done (Settings › Setup). If the app is listed as “blocks processing”, Android does not allow cleaning it.",
+  "helpCutTitle": "Words are cut or the voice drops",
+  "helpCutBody": "When the music is as loud as the voice, the AI can take parts of words for music. Voice protection (Settings) listens for speech with two separate detectors and keeps the words, while music alone is still removed. If words are still cut, set it to Strong, or choose Full quality if your phone can run it.",
+  "helpSilentTitle": "An app has no sound after closing No Mosi9a",
+  "helpSilentBody": "If No Mosi9a is force-stopped while a video plays, Android can keep that video muted. Open No Mosi9a or pull down the quick settings: it restores the sound automatically. Stopping it with its own button never causes this.",
+  "helpSetupAction": "Open setup"
+}

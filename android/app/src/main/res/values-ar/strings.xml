@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tile_label">بلا موسيقى</string>
+    <string name="channel_engine">إزالة الموسيقى</string>
+    <string name="notif_title">إزالة الموسيقى مفعّلة</string>
+    <string name="notif_text_idle">شغّل أي فيديو في أي تطبيق</string>
+    <string name="notif_text_apps">جارٍ التنقية: %1$s</string>
+    <string name="notif_action_stop">إيقاف</string>
+    <string name="toast_setup_needed">افتح التطبيق لإكمال الإعداد أولاً</string>
+    <string name="toast_projection_denied">لم يسمح أندرويد بالتقاط الصوت</string>
+    <string name="toast_projection_revoked">أوقف أندرويد التقاط الصوت</string>
+</resources>

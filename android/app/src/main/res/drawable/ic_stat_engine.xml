@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Status bar / quick settings icon: crossed-out music note. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12.6,3.5 L14,3.5 L14,15.5 L12.6,15.5 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14,3.5 C14.3,6 16.7,6.6 17.6,8.4 C18.2,9.6 18,11.1 17.3,12.3 C17.3,10.5 16.6,9.3 15.4,8.7 C14.8,8.4 14.3,8.2 14,8.1 Z" />
+    <group
+        android:pivotX="10.6"
+        android:pivotY="15.5"
+        android:rotation="-22">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M7.2,15.5 a3.4,2.5 0 1,0 6.8,0 a3.4,2.5 0 1,0 -6.8,0 Z" />
+    </group>
+    <path
+        android:pathData="M4,3.5 L20,20.5"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+</vector>
